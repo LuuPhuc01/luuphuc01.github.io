@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(84, 194, 98), rgb(129, 118, 118));
+}
+.main .card {
+  background-color: #3f3f3f;
+  color: white;
+  height: 350px;
+  width: 250px;
+  margin: 120px auto;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 20px;
+}
+.main .card .img {
+  width: 150px;
+  display: inline-block;
+}
+.main .img img {
+  border-radius: 50%;
+  border: 4px solid rgb(255, 0, 128);
+  width: 100%;
+  height: 100%;
+  margin: 20px 0px;
+  object-fit: cover;
+}
+.main .card .intro {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.main .card .name {
+  font-size: 30px;
+  font-weight: bold;
+}
+.main .card .name2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.main .card .time {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.main .card .table {
+  margin-left: 40px;
+  margin-top: 30px;
+  text-align: left;
+}
+.main .card .table ul li {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.main .card .social a {
+  margin: 10px 10px;
+}
+.main .card .social img {
+  width: 40px;
+}
