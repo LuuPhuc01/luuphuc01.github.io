@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background: linear-gradient(to right, rgb(84, 194, 98), rgb(129, 118, 118));
+}
+.main {
+  background-color: #3f3f3f;
+  color: white;
+  height: 400px;
+  width: 300px;
+  margin: 120px auto;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.main .img {
+  width: 150px;
+  display: inline-block;
+}
+.main .img img {
+  border-radius: 50%;
+  border: 2px solid rgb(255, 0, 128);
+  width: 100%;
+  height: 100%;
+  margin: 20px 0px;
+  object-fit: cover;
+}
+.main .contact {
+  text-align: left;
+  font-size: 20px;
+}
